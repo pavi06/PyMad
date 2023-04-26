@@ -20,6 +20,7 @@ if(len(s1)<=len(s2)):
     a=check(s1,s2)
 else:
     a=check(s2,s1)
+    
 l=["Friends","Lovers","Affectionate","Marriage","Enemies","Sisters"]
 while(len(l)>1):
     i=(a%len(l))-1
