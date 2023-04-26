@@ -107,6 +107,7 @@ currPlayer='X'
 winner=''
 game=True
 
+
 while(game):
     printBoard(board)
     getInput(board)
